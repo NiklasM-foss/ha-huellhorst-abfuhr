@@ -1,0 +1,17 @@
+{
+  "entity": {
+    "sensor": {
+      "next_any": { "default": "mdi:calendar-clock" },
+      "next_restmuell": { "default": "mdi:trash-can" },
+      "next_bio": { "default": "mdi:leaf" },
+      "next_papier": { "default": "mdi:newspaper" },
+      "next_gelbe_tonne": { "default": "mdi:recycle" },
+      "next_gelbe_container": { "default": "mdi:recycle-variant" },
+      "next_sperrmuell": { "default": "mdi:sofa" },
+      "next_sondermuell": { "default": "mdi:biohazard" }
+    },
+    "calendar": {
+      "abfuhrtermine": { "default": "mdi:trash-can-outline" }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Abfuhrtermine Hüllhorst hinzufügen",
+        "description": "Lädt 1× pro Tag den aktuellen Abfuhrkalender. Jahreswechsel wird automatisch erkannt.",
+        "data": {
+          "include_reminders": "Erinnerungen aus dem ICS übernehmen"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Service-Portal nicht erreichbar.",
+      "no_ics_link": "Kein ICS-Link gefunden."
+    },
+    "abort": { "already_configured": "Bereits eingerichtet." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "data": {
+          "include_reminders": "Erinnerungen aus dem ICS übernehmen"
+        }
+      }
+    }
+  }
+}

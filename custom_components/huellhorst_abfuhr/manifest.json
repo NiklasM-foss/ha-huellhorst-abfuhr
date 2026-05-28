@@ -1,0 +1,13 @@
+{
+  "domain": "huellhorst_abfuhr",
+  "name": "Abfuhrtermine Hüllhorst",
+  "version": "1.0.0",
+  "documentation": "https://github.com/NiklasM-foss/ha-huellhorst-abfuhr",
+  "issue_tracker": "https://github.com/NiklasM-foss/ha-huellhorst-abfuhr/issues",
+  "codeowners": ["@NiklasM-foss"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "integration_type": "service",
+  "dependencies": []
+}

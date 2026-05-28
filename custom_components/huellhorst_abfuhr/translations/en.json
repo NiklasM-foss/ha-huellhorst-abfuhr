@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Hüllhorst waste collection",
+        "description": "Loads the current ICS calendar once a day. Year transitions are handled automatically.",
+        "data": {
+          "include_reminders": "Include reminders from ICS"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Service portal unreachable.",
+      "no_ics_link": "No ICS link found."
+    },
+    "abort": { "already_configured": "Already configured." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "include_reminders": "Include reminders from ICS"
+        }
+      }
+    }
+  }
+}

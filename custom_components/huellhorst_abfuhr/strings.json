@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Abfuhrtermine Hüllhorst hinzufügen",
+        "description": "Die Integration lädt 1× pro Tag den aktuellen ICS-Kalender von serviceportal.huellhorst.de. Bei Jahreswechsel wird der neue Kalender automatisch erkannt.",
+        "data": {
+          "include_reminders": "Erinnerungen aus dem ICS übernehmen (mit VALARM)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Service-Portal nicht erreichbar.",
+      "no_ics_link": "Auf der Service-Detail-Seite wurde kein ICS-Link gefunden."
+    },
+    "abort": {
+      "already_configured": "Bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "data": {
+          "include_reminders": "Erinnerungen aus dem ICS übernehmen"
+        }
+      }
+    }
+  }
+}
